@@ -1,0 +1,4 @@
+c_testing_add_test(asserts_test testing)
+
+c_verify_clang_format(testing_test)
+c_verify_clang_tidy(testing_test)
